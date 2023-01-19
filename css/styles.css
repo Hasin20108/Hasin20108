@@ -10,6 +10,7 @@
     background-image: url(ai-small-1920.jpg);
     background-size: cover;
     background-position: center;
+
 }
 nav{
     display: flex;
@@ -40,11 +41,11 @@ nav ul li a{
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    color: #f9004d;  
+    color: #f8014f;  
     transition: .4s;
 }
 .btn{
-    background-color: #f9004d;
+    background-color: aqua;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -57,7 +58,7 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 .content{
-    position:absolute;
+    position: absolute;
     top:50%;
     left:8%;
     transform:translateY(-50%);
@@ -104,7 +105,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: rgb(63, 63, 160);
+    background-color: rgb(3, 3, 44);
 }
 .about img{
     height: auto;
@@ -161,6 +162,7 @@ button:hover{
     background: rgb(3, 3, 22);
     width: 100%;
     padding: 100px 0px;
+    position: relative;
 
 } 
 .title h2{
@@ -177,22 +179,22 @@ button:hover{
     min-height: 400px;
 }
 .card{
-    height:365px;
-    width: 335px;
-    padding: 20px 35px;
-    background: #191919;
-    border-radius: 20px;
-    margin: 15px;
-    position:relative;
-    overflow:hidden;
-    text-align: center  ;
+        background: rgb(36, 37, 37);
+        height:365px;
+        width: 335px;
+        padding: 20px 35px;
+        border-radius: 20px;
+        margin: 15px;
+        position:relative;
+        overflow:hidden;
+        text-align: center  ;
 }
 .card i{
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: rgb(93, 226, 182);
+    color: rgb(57, 223, 181);
 }
 h5{
     color: white;
@@ -200,7 +202,7 @@ h5{
     margin-bottom: 15px;
 }
 .pra p{
-    color: rgb(144, 243, 243);
+    color: rgb(87, 230, 230);
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -220,6 +222,14 @@ h5{
     background-color: transparent;
     border: 2px solid white;
     cursor: pointer;
+}
+.fc{
+    text-align: center;
+    width: 380px;
+    max-width: 100%;
+    margin: auto;
+    color: #f8014f;
+
 }
 .contact-me{
     width: 100%;
